@@ -16,9 +16,18 @@
 <main>
   
     <form action="https://ssgform.com/s/AbcDeFgHiJkL" method="post">
+  <label for="Player name">登録名</label>
   <input type="text" name="Player name" required="required" /> <br>
+  <label for="X(Twitter) ID">X(Twitter) ID</label>
   <input type="text" name="X(Twitter ID)" required="required" /> <br>
-  <textarea name="お問い合わせ内容" required="required"></textarea> <br>
+  <label for="request">希望機種</label>
+  <input type="search" name="request" required="required" list ="list"/> <br>
+      <datalist id="list">
+        <option value="どれでも良い">
+        <option value="オンゲキ">
+        <option value="チュウニズム">
+        <option value="maimai">
+      </datelist>
   <button type="submit">送信する</button>
 </form>
   </center>
