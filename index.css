@@ -1,6 +1,24 @@
+
 body {
-  background-image:url("ロゴ.jpg");
-  background-size:cover;
+  background: url("ロゴ.jpg") no-repeat center;
+  background-size: cover;
   background-attachment:fixed;
-  filter:blur(3px);
+  position: relative;
+  z-index: 0;
+  overflow: hidden;
+}
+body:before{
+  content: '';
+  background: inherit;
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px);
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  right: -5px;
+  bottom: -5px;
+  z-index: -1;
 }
