@@ -3,7 +3,7 @@ h1{
 	}
 	body{
   		margin: 0;
-		width: 100vw;
+		width: 80vw;
 		height: 100vh;
 	}
 @media screen and (max-width:480px) {
@@ -12,6 +12,9 @@ h1{
         font-size: 35px;
 	}
 	body{
-  		width: 100%;
-
+  		width: 80%;
+		height: 100%;
 	}
+	form {
+		width: 60%;
+		height: 80%;
