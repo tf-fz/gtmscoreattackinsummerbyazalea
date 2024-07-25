@@ -1,0 +1,17 @@
+h1{
+		font-size:50px;
+	}
+	body{
+  		margin: 0;
+		width: 100vw;
+		height: 100vh;
+	}
+@media screen and (max-width:480px) {
+	h1{
+		width: 80%;
+        font-size: 35px;
+	}
+	body{
+  		width: 100%;
+
+	}
