@@ -6,4 +6,10 @@ body {
   position: relative;
   z-index: 0;
   overflow: hidden;
-
+}
+.select{
+        width: 100%;
+        height: 40px;
+        margin: 10px 0;
+        padding: 8px;
+      }
